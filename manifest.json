@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "MarketHide",
+  "version": "0.0",
+  "description": "A simple extension to hide the Facebook Marketplace tile in the right hand column of the home page.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://www.facebook.com/*", "https://facebook.com/*"]
+  }]
+}
