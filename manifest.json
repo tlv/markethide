@@ -9,6 +9,6 @@
     "matches": ["https://www.facebook.com/*", "https://facebook.com/*"]
   }],
   "icons": {
-    "128": "icon256.png"
+    "128": "icon128.png"
   }
 }
